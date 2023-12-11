@@ -124,7 +124,7 @@ body {
 
 #hero{
   margin-top: -40px;
-  background-image: url("img/herof.png");
+  background-image: url("https://github.com/ketan-sureka/New-Gift-INN/blob/f723ca95f4e1359707602fd7769f1c8eb3c2ef82/herof.png");
   background-size: 100% 100%;
   background-position: 25% right 0;
   height: 86vh;
@@ -148,7 +148,7 @@ body {
 }
 #hero button{
   background-color:transparent;
-  background-image: url("img/button.png");
+  background-image: url("https://github.com/ketan-sureka/New-Gift-INN/blob/f723ca95f4e1359707602fd7769f1c8eb3c2ef82/button.png");
   color: #088178; 
   border: 0;
   padding: 14px 80px 20px 65px;
