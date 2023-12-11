@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global Styles */
+
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+  color: #222;
+}
+
+h4 {
+  font-size: 20px;
+  color: #222;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+body {
+  width: 100%;
+}
+#header{
+  margin-top: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: #E3E6FE;
+  box-shadow: 0 5px 15px rgb(0, 0, 0,0.06);
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 80px;
+}
+#header p{
+  position: absolute;
+  padding: 0 0;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+#navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#navbar li{
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#navbar li a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s ease;
+
+}
+#navbar li a:hover,
+#navbar li a.active{
+  color: rgb(9, 134, 201);
+}
+#navbar li a.active::after{
+  content: "";
+  width: 30%;
+  height: 2px;
+  background-color: rgba(9, 134, 201, 0.638);
+  position: absolute;
+  bottom: -4px;
+  left: 20px
+
+}
+
+#tagline{
+  background-color: #E3E6FE;
+  align-items: center;
+  padding-top: 20px;
+}
+#tagline h3{
+  font-weight: 100;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-stretch: ultra-expanded;
+  font-size: x-large;
+  margin-top: 30px;
+
+}
+/* HERO SECTION */
+
+#hero{
+  margin-top: -40px;
+  background-image: url("img/herof.png");
+  background-size: 100% 100%;
+  background-position: 25% right 0;
+  height: 86vh;
+  width: 100%;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#hero h3{
+  padding-bottom:15px ;
+  font-stretch: ultra-expanded;
+  font-size: 25px;
+}
+#hero h2{
+  color: #c40a0a;
+  margin-left: -3px;
+  font-size: 60px;
+}
+#hero button{
+  background-color:transparent;
+  background-image: url("img/button.png");
+  color: #088178; 
+  border: 0;
+  padding: 14px 80px 20px 65px;
+  background-repeat: no-repeat;
+  font-weight: 700;
+  font-size: 15px;
+}
